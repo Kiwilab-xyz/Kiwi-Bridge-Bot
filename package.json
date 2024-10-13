@@ -1,0 +1,36 @@
+{
+  "name": "kiwibot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@certusone/wormhole-sdk": "^0.10.18",
+    "@grpc/grpc-js": "^1.12.2",
+    "@grpc/proto-loader": "^0.7.13",
+    "@improbable-eng/grpc-web-node-http-transport": "^0.15.0",
+    "@mysten/sui": "^1.7.0",
+    "@project-serum/anchor": "^0.26.0",
+    "@solana/web3.js": "^1.95.3",
+    "@wormhole-foundation/sdk": "^0.10.9",
+    "algosdk": "^2.9.0",
+    "aptos": "^1.21.0",
+    "axios": "^1.7.7",
+    "bech32": "^2.0.0",
+    "bs58": "^6.0.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.7.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.4.5",
+    "near-api-js": "^4.0.4",
+    "node-self": "^1.0.2",
+    "nodemon": "^3.1.4",
+    "telegraf": "^4.16.3"
+  }
+}
